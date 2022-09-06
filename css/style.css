@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@500;700&display=swap');
+
+
+
+*{padding: 0; margin: 0; outline: 0}
+a{text-decoration: none}
+ul,ol{list-style: none}
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	/* font-family: 'Roboto'; */
+	font-family: 'Open Sans', sans-serif;
+	/* font-family: 'Oswald', sans-serif; */
+}
+
+/* Header part css start */
+
+.header_top{
+	background: #0872b9;
+}
+.header_top_left{
+	float: left;
+}
+.header_top_left p {
+    color: #fff;
+    padding: 5px 0;
+    margin: 10px 0 0 0;
+}
+.header_top_right{
+	float: right;
+}
+.header_top_right ul{}
+.header_top_right ul li {
+    float: left;
+    padding: 15px 10px 15px 15px;
+}
+.header_top_right ul li a{
+	color: #fff;
+	transition: linear 0.2s;
+}
+.header_top_right ul li a:hover{
+	color: #353535;
+	transition: linear 0.2s;
+}
+
+/* Header part css end */
+
+
+/* Navigation part css start */
+.navbar-brand img{
+	width: 110px;
+}
+.navbar-nav .nav-item .nav-link.active{
+	color: #0872b9;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	color: #0872b9;
+}
+/* Navigation part css end */
+
+/* Banner part css start */
+.banner{
+	background: url('../images/banner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.content{
+	text-align: right;
+}
+.content h3{
+	color: #fff;
+	font-family: Oswald;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+.content h2{
+	color: #fff;
+	font-family: Oswald;
+	font-weight: bold;
+	font-size: 52px;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+.content p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 36px;
+    margin-top: 28px;
+	margin-bottom: 30px;
+}
+.content a{
+    color: #fff;
+    font-size: 18px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	border: 1px solid #fff;
+	font-weight: bold;
+	font-family: oswald;
+	font-size: 16px;
+	margin-left: 20px;
+	transition: all linear 0.s;
+}
+.content a:hover{
+	background-color: #0872b9;
+	transition: all linear 0.2s;
+	padding: 10px 20px;
+	border: solid 1px #0872b9;
+}
+.banner_overlay{
+	background: rgba(0,0,0,0.5);
+	padding: 90px 0;
+}
+/* Banner part css end */
+
+/* About part css start  */
+.header{}
+.header h2{
+	text-align: center;
+	font-size: 24px;
+	margin: 60px 0;
+	font-family: Oswald;
+	text-transform: uppercase;
+}
+.header h2 span{
+	border-bottom: 2px solid #0872b9;
+}
+.about{}
+.about_img{
+	background: #5BC5F4;
+	width: 100%;
+	clip-path: polygon(80% 0, 100% 100%, 0 100%,  0 0);
+	padding-right: 10px;
+}
+.about_img img{
+	width: 100%;
+	clip-path: polygon(80% 0, 95% 100%, 0 100%,  0 0);
+}
+.about_content p{
+	margin-top: 50px;
+    line-height: 40px;
+    margin-left: 50px;
+}
+/* About part css end  */
+
+/* Services css part start */
+.service_item{
+	background-color: #F1F1F1;
+	position: relative;
+	text-align: center;
+	margin-top: 30px;
+}
+.service_item:hover{
+	-webkit-box-shadow: 0px 2px 12px 1px rgba(0,0,0,0.30);
+	box-shadow: 0px 2px 12px 1px rgba(0,0,0,0.30);
+}
+.service_item:hover .icon_circle{
+	background-color: #5bc5f4;
+}
+.service_item:hover .service_circle{
+	background-color: #5bc5f4;
+}
+.service_item h4{
+	padding-top: 50px;
+	font-size: 16px;
+	font-family: oswald;
+	text-transform: uppercase;
+	color: #353535;
+}
+.service_item p{
+	font-size: 13px;
+	font-family: "open Sans";
+	color: #555555;
+	padding: 15px;
+	line-height: 25px;
+}
+.service_circle{
+	border: 3px solid #FFF;
+    background-color: #F1F1F1;
+    padding: 1px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -22%;
+    left: 36.6%;
+}
+.icon_circle{
+	background-color: #F1F1F1;
+	border: 2px solid #FFF;
+	padding: 2px;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.icon_circle img{
+	margin: 2px;
+	position: absolute;
+	align-items: center;
+}
+/* Services css part end */
