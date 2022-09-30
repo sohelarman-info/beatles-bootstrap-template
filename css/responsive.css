@@ -1,0 +1,160 @@
+/* Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) and (max-width: 575px) { 
+    .header_top_left{
+        text-align: center;
+        font-size: 14px;
+        width: 100%;
+    }
+    .header_top_left p{
+        margin-bottom: 10px;
+    }
+    .header_top_right{
+        display: none;
+    }
+    .navbar-brand img{
+        width: 50px;
+    }
+    .content {
+        text-align: center;
+    }
+    .content a {
+        font-size: 14px !important;
+        padding: 3px 9px;
+        margin-left: 10px;
+    }
+    .content h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .content h3 {
+        color: #fff;
+        font-family: Oswald;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .content p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 17px;
+        margin-bottom: 29px;
+    }
+    .banner_overlay {
+        padding: 61px 0;
+    }
+    .about_content p {
+        margin-top: 14px;
+        font-size: 14px;
+        line-height: 26px;
+        margin-left: 0;
+        text-align: justify;
+    }
+    .header h2 {
+        text-align: center;
+        font-size: 18px;
+        margin: 20px 0;
+        font-family: Oswald;
+        text-transform: uppercase;
+    }
+    .service_item {
+        background-color: #F1F1F1;
+        position: relative;
+        text-align: center;
+        margin-top: 59px;
+        transition: 0.3s;
+    }
+    .service_circle {
+        top: -19%;
+        left: 38%;
+    }
+    .service_item p {
+        font-size: 14px;
+        padding: 5px;
+        line-height: 23px;
+    }
+    .service_item h4 {
+        padding-top: 60px;
+        font-size: 14px;
+    }
+    .testman {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .text_content {
+        clip-path: polygon(55% 5%, 100% 5%, 100% 100%, 0 100%, 0 5%, 45% 5%, 50% 0);
+        background-color: #f1f1f1;
+        text-align: center;
+        margin-bottom: 25px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .footer_one {
+        margin: 0;
+        text-align: center;
+    }
+    .footer_one p {
+        color: #f1f1f1;
+        font-family: 'Open Sans';
+        margin-bottom: -5px;
+        padding: 5px 0;
+        text-align: justify;
+    }
+    .footer_one img {
+        margin: 10px 0;
+        width: 80px;
+        text-align: center;
+    }
+    .footer_three h2 {
+        color: #ffffff;
+        font-family: oswald;
+        font-size: 18px;
+        margin: 0;
+        text-align: center;
+    }
+    .category ul li {
+        padding: 5px 0;
+    }
+    .footer_four h2 {
+        font-size: 18px;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .footer_two h2 {
+        font-size: 18px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .footer_three h2 {
+        font-size: 18px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .footer_one {
+        margin: 0;
+    }
+    .footer_two {
+        margin: 0;
+    }
+    .footer_three {
+        margin: 0;
+    }
+    .footer_four {
+        margin: 0;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) { ... }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { ... }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) { ... }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
+
+
